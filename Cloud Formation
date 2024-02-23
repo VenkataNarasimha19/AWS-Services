@@ -1,0 +1,41 @@
+AWS Cloud Formation:
+
+AWS Cloud Formation provides users with a simple way to create and manage a collection of AWS resources by provisioning and updating them in an orderly and predictable way.
+
+AWS Cloud Formation enables you to manage your complete infrastructure or AWS resources through a text file.
+
+All the resources required by a user in an application can be deployed easily using templates.
+Also, you can reuse your templates to replicate your infrastructure in multiple environments.
+To make templates reusable, use the parameters, mapping and conditions sections in the templates so that you can customize your stacks when you create them.
+
+How AWS Cloud Formation work?
+1. Create or use existing CloudFormation template using JSON/YAML format
+2. Save your code template locally or in S3 Bucket.
+3. Use AWS CloudFormation to create  a stack on your template. 
+4. AWS CloudFormation constructs and configures your stack resources that you have specified in your template.
+
+Template:
+A template in AWS CloudFormation is a formatted text file in JSON or YAML language that describe your AWS infrastructure.
+To create, view and modify templates you can use AWS CloudFormation Designer or any text editor tool.
+Template in Amazon CloudFormation consits of 9 main objects.
+1) Format Version, 2) Description, 3) Metadata, 4) Parameters, 5) Mappings, 6) Conditions, 7) Transform, 8) Resources & 9) Outputs.
+
+Stack:
+A collection of AWS Resources is called a stack and it can be managed in a single unit.
+CloudFormation's template defines a stack in which the resources can be created, deleted or updated in a predictable way.
+A stack can have all the resources (web servers, database etc.) that can be required to run a web application.
+
+Windows Stack:
+Windows Stack gives you the ability to update and configure your own stack in windows instances.
+with AWS CloudFormation, you can create Microsoft windows stack for amazon EC2 windows AMI(Amazon Machine Images).
+
+StackSets:
+Using an AWS CloudFormation template, you can define a stackset that lets you to create stacks in AWS accounts across the globe by using a single template.
+After a stack set is defined by you, creating, updating or deleting stacks in the target accounts and regions can also be specified.
+
+CloudFormation Access Control:
+IAM User Access: with IAM, CloudFormation can have access control for users and ensure that only IAM users can create, update and delete stacks.
+Service Role: on the user's behalf, a service role allows AWS CloudFormation to make calls to resources in a stack.
+StackPolicy: It is applied to all AWS CloudFormation users who attempt to update the stack. Here, you cannot include diffeent users with different stack policies.
+
+
