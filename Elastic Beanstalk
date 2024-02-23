@@ -1,0 +1,12 @@
+Amazon Web Services (AWS):
+Amazon Web Services is a cloud provider that offers a varity of services such as compute power, database storage, content delivery and other resources to help businesses scale and grow.
+
+AWS Elastic Beanstalk:
+AWS Elastic Beanstalk is a service used to deploy and scale web application by developers.
+It supports various programming languages such as Java, .NET, PHP, Node.js, Python, Ruby, Golang, and Docker.
+
+Advantages of AWS Elastic Beanstalk:
+1) Highly Scalable, 2) Fast and Simple to Begin, 3) Offers quick deployments, 4) Supports multi-tenant architecture, 5) Highly Flexible, 6) Simplifies Operations, 7) Cost-Efficient.
+
+Components of AWS Elastic Beanstalk:
+AWS Elastic Beanstalk consists of a few important components which are required while deploying an application. which are Application, Application Version, Environment, Environment Tier.
